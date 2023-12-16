@@ -1,1 +1,0 @@
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/hardware/vendor/wifi/broadcom/bcm4389/$(TARGET_PRODUCT),$(TARGET_COPY_OUT_VENDOR)/firmware/)
