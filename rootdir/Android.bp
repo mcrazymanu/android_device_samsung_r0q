@@ -256,8 +256,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.b0q.rc",
-    src: "etc/init.b0q.rc",
+    name: "init.r0q.rc",
+    src: "etc/init.r0q.rc",
     sub_dir: "init/hw",
     vendor: true,
 }

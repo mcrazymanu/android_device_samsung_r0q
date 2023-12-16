@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     init.qti.ufs.rc \
     init.qcom.usb.rc \
     init.qcom.factory.rc \
-    init.b0q.rc \
+    init.r0q.rc \
     init.qti.kernel.rc \
     init.samsung.dp.rc \
     init.samsung.power.rc \
@@ -98,7 +98,7 @@ PRODUCT_SOONG_NAMESPACES += \
 MSMSTEPPE := taro
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/b0q/b0q-vendor.mk)
+$(call inherit-product, vendor/samsung/r0q/r0q-vendor.mk)
 
 
 # Inherit from the common OEM chipset makefile.

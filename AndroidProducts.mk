@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_b0q.mk
+    $(LOCAL_DIR)/statix_r0q.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_b0q-user \
-    statix_b0q-userdebug \
-    statix_b0q-eng
+    statix_r0q-user \
+    statix_r0q-userdebug \
+    statix_r0q-eng
